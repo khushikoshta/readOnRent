@@ -1,0 +1,276 @@
+.navbar-class{
+    position: fixed;
+}
+.home{
+    /*background-image: url("https://foodtank.com/wp-content/uploads/2021/07/alfons-morales-YLSwjSy7stw-unsplash.jpg");*/
+    
+    background-color: #FFF7D4;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    
+}
+.home2{
+    margin: 0 auto;
+    padding-top: 5%;
+}
+   
+.main-logo{
+    height: 200px;
+    position: relative;
+    right: 20px;
+
+}
+.title{
+    position: relative;
+    left: 20px;
+    font-size: 150px;
+
+    background: url(https://foodtank.com/wp-content/uploads/2021/07/alfons-morales-YLSwjSy7stw-unsplash.jpg) -20px -20px no-repeat;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+    font-weight: 700;
+}
+
+.about-us-row{
+    color: #2E4750;
+    padding : 7%;
+}
+
+.aboutUs{
+    text-align: justify;
+}
+
+.icon{
+    text-align: center;
+    padding-top: 0%;
+    margin-left: 80px;
+}
+
+.book-icon:hover,.rupee-icon:hover{
+    color:black;
+}
+
+.icon-heading{
+    font-size: 30px;
+}
+
+#bookCollectionSection{
+    background-color: #FFD95A;
+    color: #222831;
+    padding : 7%;
+}
+
+.book-collection-intro-text{
+    text-align: justify;
+}
+
+.book-categories{
+    text-align: center;
+    padding: 0 2%;
+}
+
+.book-categorie-background-images{
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 30px;
+    
+}
+#librarySection{
+    color: #2E4750;
+}
+
+.library-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 40px 20px;
+}
+
+.library-heading{
+    border-bottom: 3px solid #b57a04;
+    padding-bottom: 10px;
+    width : 50%;
+    color: #b57a04;
+}
+
+.library-container p{
+    padding-bottom : 10px;
+}
+
+.library-container .img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.library-container .img-box .col1{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.library-container .img-box .col1 img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
+#ourEventsSection{
+    background-color: #FFD95A;
+    padding-top: 50px;
+}
+
+.event-section-heading{
+    text-align: center;
+}
+
+#ourEventsSection .book-fair-imgbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*padding: 10px 20px 30px 50px;*/
+    text-align: center;
+    padding-left: 30px;
+    
+}
+
+#ourEventsSection .book-fair-imgbox .bf-col {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+
+#ourEventsSection .book-fair-imgbox .bf-col img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#ourEventsSection h2{
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#ourEventsSection .book-swap-imgbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+   /* padding: 10px 50px 30px 20px;*/
+    padding-right: 30px;
+}
+
+#ourEventsSection .book-swap-imgbox .bs-col {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+#ourEventsSection .book-swap-imgbox .bs-col img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.book-fair , .book-swap{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#reviewsSection{
+    color: #222831;
+    padding: 6%;
+    margin: 0;
+}
+
+.review-intro-text {
+    padding-top: 5%;
+}
+.reviewHeading{
+    color: #b57a04;
+}
+
+.background-class{
+    background-color: #b57a04;
+    padding: 8% 15% ;
+    color: white; 
+    text-align: center;
+    width: 800px;
+    height : 400px;
+}
+
+.review-text{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.review-image{
+    width: auto;
+    height: 70px;
+}
+#contactSection{
+    background-color: #FFD95A;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.contact-text{
+    margin-bottom: 20px;
+}
+
+.contact-icon{
+    color: black;
+    margin: 0 10px;
+}
+
+.contact-icon:hover{
+    color: #b57a04;
+}
+/*
+.heading{
+    text-align: center;
+    
+    
+
+    /*
+    background: url(https://foodtank.com/wp-content/uploads/2021/07/alfons-morales-YLSwjSy7stw-unsplash.jpg) -20px -20px no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
+/*
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.tagline{
+    position: relative;
+    top: 60%;
+    left: 30%;
+    
+}
+
+
+https://drive.google.com/file/d/1yIj24EBDxcglRDNmsriEbJiGsliomF5m/view?usp=drive_link
+1yIj24EBDxcglRDNmsriEbJiGsliomF5m
+1ZSLLimTkjK1HeSURvsFwtiFrwljIu7IL
+https: //drive.google.com/file/d/116YCXsum5juqYsXhHnnNHFRF16WKTkMj/view?usp=drive_link
+https://drive.google.com/uc?export=view&id=1yIj24EBDxcglRDNmsriEbJiGsliomF5m
+https: //drive.google.com/file/d/1M0sggTLGYsmyUcaMYDhfsEQ9yu8VNTSZ/view?usp=drive_link
+https: //drive.google.com/file/d/1hAwd0mkLTumimtk06G_Cz8JPNmTcGYab/view?usp=drive_link
+*/
