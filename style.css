@@ -10,21 +10,24 @@
     padding-bottom: 2%;
     
 }
+/*
 .home2{
     margin: 0 auto;
     padding-top: 5%;
 }
+*/
    
 .main-logo{
     height: 200px;
     position: relative;
-    right: 20px;
+    /*right: 10px;*/
 
 }
 .title{
     position: relative;
-    left: 20px;
+   /* right: 150px;*/
     font-size: 150px;
+    /*padding-left: %;*/
 
     background: url(https://foodtank.com/wp-content/uploads/2021/07/alfons-morales-YLSwjSy7stw-unsplash.jpg) -20px -20px no-repeat;
         -webkit-text-fill-color: transparent;
@@ -33,19 +36,31 @@
     font-weight: 700;
 }
 
+.tagline{
+   
+}
+
 .about-us-row{
     color: #2E4750;
-    padding : 7%;
+    padding : 7% 3% 7% 7%;
+  /*  width: 1534px;*/
 }
 
 .aboutUs{
+    text-align: center;
+    
+    
+}
+
+.about-us-text{
     text-align: justify;
+    margin-right: 0px;
 }
 
 .icon{
     text-align: center;
     padding-top: 0%;
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
 .book-icon:hover,.rupee-icon:hover{
@@ -127,6 +142,11 @@
 #ourEventsSection{
     background-color: #FFD95A;
     padding-top: 50px;
+    /*width: 1518px;*/
+}
+
+.event-row{
+    /*width: 1534px;*/
 }
 
 .event-section-heading{
@@ -213,12 +233,15 @@
     color: white; 
     text-align: center;
     width: 800px;
-    height : 400px;
+    height : 500px;
 }
 
 .review-text{
     font-size: 25px;
     margin-bottom: 15px;
+    padding-top: 10px;
+    text-align: center;
+    
 }
 
 .review-image{
