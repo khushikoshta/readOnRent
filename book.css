@@ -1,0 +1,53 @@
+.body-class{
+    padding: 2% 5%;
+    background-color: #FFF7D4;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.images{
+    text-align: center;
+}
+
+img{
+    
+    width: 200px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 5%;
+}
+
+/*
+.first-book{
+    background-color: red;
+}
+
+.second-book{
+    background-color: aqua;
+}
+
+.third-book {
+    background-color: yellow;
+}
+
+.fourth-book {
+    background-color: green;
+}
+*/
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 0 1px;
+    font-weight: 600;
+}
+
+.author{
+    text-align: center;
+    margin-top: 0;
+    color: grey;
+}
+
