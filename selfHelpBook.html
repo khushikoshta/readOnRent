@@ -1,12 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Self Help|ReadOnRent</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="book.css">
 </head>
+
 <body>
-    <h1>Self help books</h1>
+    <div class="body-class">
+
+
+        <nav class="navbar navbar-dark bg-dark">
+            <input type="text" id="searchbar" onkeyup="search_book()" placeholder="Search by Author or Title">
+        </nav>
+
+        <h1> <em>Transform, empower, and find your path!</em></h1>
+        <p>
+        Empower yourself with our self-help section, where you'll find a wealth of knowledge and inspiration. From personal
+        development to mindfulness practices, our collection is designed to guide you on your journey towards self-improvement
+        and growth. Unlock your potential and discover the tools for a fulfilling and enriched life.
+        </p>
+
+        <div class="row images ">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks/12 rules for life.jpg" alt="">
+                <p class="title">12 Rules For Life</p>
+                <p class="author">Jordan B Peterson</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks/101 essays that will change the way you think.jpg" alt="">
+                <p class="title">101 Essays That Will Change The Way You Think</p>
+                <p class="author">Brianna Wiest</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks/Do epic shit.jpg" alt="">
+                <p class="title">Do Epic Shit</p>
+                <p class="author">Ankur Warikoo</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks/Do it today.jpg" alt="">
+                <p class="title">Do It Today</p>
+                <p class="author">Darius Foroux</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks/Don't believe everything you think.jpg" alt="">
+                <p class="title">Don't Believe Everything You Think</p>
+                <p class="author">Joseph Nguyen</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks/Ego is the enemy.jpg" alt="">
+                <p class="title">Ego Is The Enemy</p>
+                <p class="author">Ryan Holiday</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks/Games people play.jpg" alt="">
+                <p class="title">Games People Play</p>
+                <p class="author">Eric Berne</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Get epic shit done.jpg" alt="">
+                <p class="title">Get Epic Shit Done</p>
+                <p class="author">Ankur Warikoo</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Good vibes good life.jpg" alt="">
+                <p class="title">Good Vibes, Good Life</p>
+                <p class="author">Vex King</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Grit.jpg" alt="">
+                <p class="title">Grit</p>
+                <p class="author">Angela Duckworth</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\How to talk to anyone.jpg" alt="">
+                <p class="title">How To Talk To Anyone</p>
+                <p class="author">Leil Lowndes</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Hyper Focus.jpg" alt="">
+                <p class="title">Hyper Focus</p>
+                <p class="author">Chris Bailey</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Linchpin.jpg" alt="">
+                <p class="title">Linchpin</p>
+                <p class="author">Seth Godin</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Living on your own terms.jpg" alt="">
+                <p class="title">Living On Your Own Terms</p>
+                <p class="author">Osho</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Man's search for meaning.jpg" alt="">
+                <p class="title">Man's Search For Meaning</p>
+                <p class="author">Viktor E. Frankl</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Mindset.jpg" alt="">
+                <p class="title">Mindset</p>
+                <p class="author">Dr Carol S. Dweck</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Quiet.jpg" alt="">
+                <p class="title">Quiet</p>
+                <p class="author">Susan Cain</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Rework.jpg" alt="">
+                <p class="title">Rework</p>
+                <p class="author">Jason Fried & David Heinemeier Hansson</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Sapiens.jpg" alt="">
+                <p class="title">Sapiens</p>
+                <p class="author">Yuval Noah Harari</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The 80 20 principle.jpg" alt="">
+                <p class="title">The 80/20 Principle</p>
+                <p class="author">Richard Koch</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The art of saying no.jpg" alt="">
+                <p class="title">The Art Of Saying No</p>
+                <p class="author">Damon Zahariades</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The courage to be disliked.jpg" alt="">
+                <p class="title">The Courage To Be Disliked</p>
+                <p class="author">Ichiro Kishimi and Fumitake Koga</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The four agreements.jpg" alt="">
+                <p class="title">The Four Agreements</p>
+                <p class="author">Don Miguel Ruiz</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The power of habit.jpg" alt="">
+                <p class="title">The Power Of Habit</p>
+                <p class="author">Charles Duhigg</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The power of your subconscious mind.jpg" alt="">
+                <p class="title">The Power Of Your Subconscious Mind</p>
+                <p class="author">Dr Joseph Murphy</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The rudest book ever.jpg" alt="">
+                <p class="title">The Rudest Book Ever</p>
+                <p class="author">Shwetabh Gangwar</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\The Secret.jpg" alt="">
+                <p class="title">The Secret</p>
+                <p class="author">Rhonda Byrne</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Think again.jpg" alt="">
+                <p class="title">Think Again</p>
+                <p class="author">Adam Grant</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Think and grow rich.jpg" alt="">
+                <p class="title">Think And Grow Rich</p>
+                <p class="author">Napoleon Hill</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Think like a monk.jpg" alt="">
+                <p class="title">Think Like A Monk</p>
+                <p class="author">Jay Shetty</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Think straight.jpg" alt="">
+                <p class="title">Think Straight</p>
+                <p class="author">Darius Foroux</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Who moved my cheese.jpg" alt="">
+                <p class="title">Who Moved My Cheese</p>
+                <p class="author">Dr Spencer Johnson</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 book">
+                <img src="selfHelpBooks\Win your inner battles.jpg" alt="">
+                <p class="title">Win Your Inner Battles</p>
+                <p class="author">Darius Foroux</p>
+            </div>
+
+
+
+        </div>
+        
+        <p class="end-message">
+            <em>Didn't find what you are looking for?
+                <br />
+            Try our other sections!</em>
+        </p>
+        
+    </div>
+
+
+
+
+
+
+    <!--Bootstrap scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="book.js"></script>
 </body>
+
 </html>
