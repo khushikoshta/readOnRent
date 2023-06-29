@@ -263,6 +263,15 @@
     margin-bottom: 20px;
 }
 
+.g-map{
+    border-radius: 15%;
+    size: 50%;
+}
+
+.contact-row{
+    padding: 2% 8%;
+}
+
 .contact-icon{
     color: black;
     margin: 0 10px;
